@@ -1,0 +1,11 @@
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 36px 37px;
+}
+
+@media all and (max-width: 600px) {
+  .modal__form {
+    padding: 27px 22px 7px;
+  }
+}

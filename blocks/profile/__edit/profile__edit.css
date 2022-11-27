@@ -1,0 +1,23 @@
+.profile__edit {
+  grid-area: profile__edit;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background-color: #000;
+  border: 1px solid #fff;
+  background-image: url(../../../images/logo/pensil.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.profile__edit:hover {
+  opacity: 0.6;
+}
+
+@media all and (max-width: 720px) {
+  .profile__edit {
+    width: 18px;
+    height: 18px;
+  }
+}

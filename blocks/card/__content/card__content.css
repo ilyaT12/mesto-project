@@ -1,0 +1,14 @@
+.card__content {
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 18px 22px 21px;
+}
+
+@media all and (max-width: 600px) {
+  .card__content {
+    padding: 22px 20px 25px 21px;
+  }
+}
