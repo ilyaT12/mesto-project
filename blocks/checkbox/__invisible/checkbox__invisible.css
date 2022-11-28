@@ -13,3 +13,4 @@
 .checkbox__invisible:checked+.checkbox__visible {
   background-image: url(../../../images/logo/heart_active.svg);
 }
+

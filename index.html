@@ -19,84 +19,89 @@
       <div class="profile__info">
         <h1 class="profile__name" id="profile__name">Жак-Ив Кусто</h1>
         <p class="profile__description" id="profile__description">Исследователь океана</p>
-        <a class="profile__edit" href="#myModal"></a>
+        <!-- <button class="profile__edit" type="button"></button> -->
+        <a href="#myModal">
+          <button class="profile__edit" type="button" name="edit_profile"></button>
+        </a>
       </div>
-      <a class="profile__add" href="#"></a>
+      <button class="profile__add" type="button" name="add_profile"></button>
+      <!-- <a class="profile__add" href="#"></a> -->
     </section>
 
     <section class="cards">
       <ul class="cards__list">
-        <li><article class="card">
-          <img src="./images/card/01.kirill-pershin-1088404-unsplash.jpg" alt="Церковь на горе" class="card__img">
-          <div class="card__content">
-            <h2 class="card__text">Карачаевск</h2>
-            <label class="card__follow" for="card1">
-              <input class="checkbox__invisible" type="checkbox" name="follow" id="card1" value="yes">
-              <span class="checkbox__visible"></span>
-            </label>
-          </div>
-        </article></li>
-        <li><article class="card">
-          <img src="./images/card/02.kirill-pershin-1404681-unsplash.png" alt="Пики Эльбруса на закате" class="card__img">
-          <div class="card__content">
-            <h2 class="card__text">Гора Эльбрус</h2>
-            <label class="card__follow" for="card2">
-              <input class="checkbox__invisible" type="checkbox" name="follow" id="card2" value="yes">
-              <span class="checkbox__visible"></span>
-            </label>
-          </div>
-        </article></li>
-        <li><article class="card">
-          <img src="./images/card/03.kirill-pershin-1556355-unsplash.png" alt="Горы Домбая" class="card__img">
-          <div class="card__content">
-            <h2 class="card__text">Домбай</h2>
-            <label class="card__follow" for="card3">
-              <input class="checkbox__invisible" type="checkbox" name="follow" id="card3" value="yes">
-              <span class="checkbox__visible"></span>
-            </label>
-          </div>
-        </article></li>
-        <li><article class="card">
-          <img src="./images/card/02.kirill-pershin-1404681-unsplash.png" alt="Пики Эльбруса на закате" class="card__img">
-          <div class="card__content">
-            <h2 class="card__text">Гора Эльбрус</h2>
-            <label class="card__follow" for="card4">
-              <input class="checkbox__invisible" type="checkbox" name="follow" id="card4" value="yes">
-              <span class="checkbox__visible"></span>
-            </label>
-          </div>
-        </article></li>
-        <li><article class="card">
-          <img src="./images/card/03.kirill-pershin-1556355-unsplash.png" alt="Горы Домбая" class="card__img">
-          <div class="card__content">
-            <h2 class="card__text">Домбай</h2>
-            <label class="card__follow" for="card5">
-              <input class="checkbox__invisible" type="checkbox" name="follow" id="card5" value="yes">
-              <span class="checkbox__visible"></span>
-            </label>
-          </div>
-        </article></li>
-        <li><article class="card">
-          <img src="./images/card/01.kirill-pershin-1088404-unsplash.jpg" alt="Церковь на горе" class="card__img">
-          <div class="card__content">
-            <h2 class="card__text">Карачаево-Черкесия</h2>
-            <label class="card__follow" for="card6">
-              <input class="checkbox__invisible" type="checkbox" name="black" id="card6" value="yes">
-              <span class="checkbox__visible"></span>
-            </label>
-          </div>
-        </article></li>
+        <li>
+          <article class="card">
+            <img src="./images/card/01.kirill-pershin-1088404-unsplash.jpg" alt="Церковь на горе" class="card__img">
+            <div class="card__content">
+              <h2 class="card__text">Карачаевск</h2>
+              <button class="card__follow" type="button" name="follow"></button>
+              <!-- <label class="card__follow" for="card1"> пока не удалил, чтобы оставить решение до конца зачтения проекта.
+                <input class="checkbox__invisible" type="checkbox" name="follow" id="card1" value="yes">
+                <span class="checkbox__visible"></span>
+              </label> -->
+            </div>
+          </article>
+        </li>
+        <li>
+          <article class="card">
+            <img src="./images/card/02.kirill-pershin-1404681-unsplash.png" alt="Пики Эльбруса на закате" class="card__img">
+            <div class="card__content">
+              <h2 class="card__text">Гора Эльбрус</h2>
+              <button class="card__follow" type="button" name="follow"></button>
+            </div>
+          </article>
+        </li>
+        <li>
+          <article class="card">
+            <img src="./images/card/03.kirill-pershin-1556355-unsplash.png" alt="Горы Домбая" class="card__img">
+            <div class="card__content">
+              <h2 class="card__text">Домбай</h2>
+              <button class="card__follow" type="button" name="follow"></button>
+            </div>
+          </article>
+        </li>
+        <li>
+          <article class="card">
+            <img src="./images/card/02.kirill-pershin-1404681-unsplash.png" alt="Пики Эльбруса на закате" class="card__img">
+            <div class="card__content">
+              <h2 class="card__text">Гора Эльбрус</h2>
+              <button class="card__follow" type="button" name="follow"></button>
+            </div>
+          </article>
+        </li>
+        <li>
+          <article class="card">
+            <img src="./images/card/03.kirill-pershin-1556355-unsplash.png" alt="Горы Домбая" class="card__img">
+            <div class="card__content">
+              <h2 class="card__text">Домбай</h2>
+              <button class="card__follow" type="button" name="follow"></button>
+            </div>
+          </article>
+        </li>
+        <li>
+          <article class="card">
+            <img src="./images/card/01.kirill-pershin-1088404-unsplash.jpg" alt="Церковь на горе" class="card__img">
+            <div class="card__content">
+              <h2 class="card__text">Карачаево-Черкесия</h2>
+              <button class="card__follow" type="button" name="follow"></button>
+            </div>
+          </article>
+        </li>
       </ul>
     </section>
 
     <div class="modal" id="myModal">
       <div class="modal__window">
-        <a class="modal__close" href="#close"></a>
-        <form class="modal__form" action="">
+        <!-- <button class="modal__close"></button> -->
+        <a href="#close">
+          <button class="modal__close"></button>
+        </a>
+        <form class="modal__form">
           <h3 class="modal__title">Редактировать профиль</h3>
-          <input class="modal__field1" type="text" name="name" id="profile__name">
-          <input class="modal__field2" type="text" name="description" id="profile__description">
-          <button class="modal__submit" type="submit">Сохранить</button>
+          <input class="modal__change_name" type="text" name="name" id="change_name">
+          <input class="modal__change_description" type="text" name="description" id="change_description">
+          <button class="modal__submit" type="submit" name="submit">Сохранить</button>
         </form>
       </div>
     </div>

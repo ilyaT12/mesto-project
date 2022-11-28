@@ -10,6 +10,7 @@
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 .profile__add:hover {
@@ -27,3 +28,4 @@
   margin: 0 auto;
   padding-top: 50px;
 }
+
