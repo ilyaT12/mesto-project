@@ -10,7 +10,9 @@
 </head>
 <body class="page">
   <header class="header">
-    <div class="header__logo"></div>
+    <div class="header__logo">
+      <img src="./images/logo/logo.svg" alt="Логотип проекта Место" class="header__img">
+    </div>
   </header>
 
   <main class="content">
@@ -19,13 +21,9 @@
       <div class="profile__info">
         <h1 class="profile__name" id="profile__name">Жак-Ив Кусто</h1>
         <p class="profile__description" id="profile__description">Исследователь океана</p>
-        <!-- <button class="profile__edit" type="button"></button> -->
-        <a href="#myModal">
-          <button class="profile__edit" type="button" name="edit_profile"></button>
-        </a>
+        <button class="button button__edit" type="button" name="edit_profile" aria-label="Редактирование профиля"></button>
       </div>
-      <button class="profile__add" type="button" name="add_profile"></button>
-      <!-- <a class="profile__add" href="#"></a> -->
+      <button class="button button__add" type="button" name="add_profile" aria-label="Добавить профиль"></button>
     </section>
 
     <section class="cards">
@@ -35,47 +33,43 @@
             <img src="./images/card/01.kirill-pershin-1088404-unsplash.jpg" alt="Церковь на горе" class="card__img">
             <div class="card__content">
               <h2 class="card__text">Карачаевск</h2>
-              <button class="card__follow" type="button" name="follow"></button>
-              <!-- <label class="card__follow" for="card1"> пока не удалил, чтобы оставить решение до конца зачтения проекта.
-                <input class="checkbox__invisible" type="checkbox" name="follow" id="card1" value="yes">
-                <span class="checkbox__visible"></span>
-              </label> -->
+              <button class="button button__follow" type="button" name="follow" aria-label="Нравиться"></button>
             </div>
           </article>
         </li>
         <li>
           <article class="card">
-            <img src="./images/card/02.kirill-pershin-1404681-unsplash.png" alt="Пики Эльбруса на закате" class="card__img">
+            <img src="./images/card/02.kirill-pershin-1404681-unsplash.jpg" alt="Пики Эльбруса на закате" class="card__img">
             <div class="card__content">
               <h2 class="card__text">Гора Эльбрус</h2>
-              <button class="card__follow" type="button" name="follow"></button>
+              <button class="button button__follow" type="button" name="follow" aria-label="Нравиться"></button>
             </div>
           </article>
         </li>
         <li>
           <article class="card">
-            <img src="./images/card/03.kirill-pershin-1556355-unsplash.png" alt="Горы Домбая" class="card__img">
+            <img src="./images/card/03.kirill-pershin-1556355-unsplash.jpg" alt="Горы Домбая" class="card__img">
             <div class="card__content">
               <h2 class="card__text">Домбай</h2>
-              <button class="card__follow" type="button" name="follow"></button>
+              <button class="button button__follow" type="button" name="follow" aria-label="Нравиться"></button>
             </div>
           </article>
         </li>
         <li>
           <article class="card">
-            <img src="./images/card/02.kirill-pershin-1404681-unsplash.png" alt="Пики Эльбруса на закате" class="card__img">
+            <img src="./images/card/02.kirill-pershin-1404681-unsplash.jpg" alt="Пики Эльбруса на закате" class="card__img">
             <div class="card__content">
               <h2 class="card__text">Гора Эльбрус</h2>
-              <button class="card__follow" type="button" name="follow"></button>
+              <button class="button button__follow" type="button" name="follow" aria-label="Нравиться"></button>
             </div>
           </article>
         </li>
         <li>
           <article class="card">
-            <img src="./images/card/03.kirill-pershin-1556355-unsplash.png" alt="Горы Домбая" class="card__img">
+            <img src="./images/card/03.kirill-pershin-1556355-unsplash.jpg" alt="Горы Домбая" class="card__img">
             <div class="card__content">
               <h2 class="card__text">Домбай</h2>
-              <button class="card__follow" type="button" name="follow"></button>
+              <button class="button button__follow" type="button" name="follow" aria-label="Нравиться"></button>
             </div>
           </article>
         </li>
@@ -84,24 +78,21 @@
             <img src="./images/card/01.kirill-pershin-1088404-unsplash.jpg" alt="Церковь на горе" class="card__img">
             <div class="card__content">
               <h2 class="card__text">Карачаево-Черкесия</h2>
-              <button class="card__follow" type="button" name="follow"></button>
+              <button class="button button__follow" type="button" name="follow" aria-label="Нравиться"></button>
             </div>
           </article>
         </li>
       </ul>
     </section>
 
-    <div class="modal" id="myModal">
-      <div class="modal__window">
-        <!-- <button class="modal__close"></button> -->
-        <a href="#close">
-          <button class="modal__close"></button>
-        </a>
-        <form class="modal__form">
-          <h3 class="modal__title">Редактировать профиль</h3>
-          <input class="modal__change_name" type="text" name="name" id="change_name">
-          <input class="modal__change_description" type="text" name="description" id="change_description">
-          <button class="modal__submit" type="submit" name="submit">Сохранить</button>
+    <div class="popup " id="myModal"> <!--сюда добовляем модификатор popup_opened для открытия формы-->
+      <div class="popup__container">
+        <button class="button button__close_form__profile" type="button" name="close_popup" form="myModal" aria-label="Закрыть форму"></button>
+        <form class="form__profile" name="change_profile">
+          <h3 class="form__profile_title">Редактировать профиль</h3>
+          <input class="form__profile_input form__profile_input-field_name" type="text" name="name" id="change_name">
+          <input class="form__profile_input form__profile_input-field_description" type="text" name="description" id="change_description">
+          <button class="button button__submit_form__profile" type="submit" name="submit" form="myModal">Сохранить</button>
         </form>
       </div>
     </div>
@@ -114,3 +105,4 @@
 
 </body>
 </html>
+

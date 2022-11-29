@@ -1,0 +1,9 @@
+.form__profile_input-field_description {
+  margin-bottom: 48px;
+}
+
+@media all and (max-width: 600px) {
+  .form__profile_input-field_description {
+    margin-bottom: 42px;
+  }
+}

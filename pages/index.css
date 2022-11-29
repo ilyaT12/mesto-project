@@ -8,9 +8,11 @@
 /* Блок header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__img/header__img.css);
 
 /* content */
 @import url(../blocks/content/content.css);
+@import url(../blocks/button/button.css);
 
 /* Блок profile */
 @import url(../blocks/profile/profile.css);
@@ -18,8 +20,8 @@
 @import url(../blocks/profile/__info/profile__info.css);
 @import url(../blocks/profile/__name/profile__name.css);
 @import url(../blocks/profile/__description/profile__description.css);
-@import url(../blocks/profile/__edit/profile__edit.css);
-@import url(../blocks/profile/__add/profile__add.css);
+@import url(../blocks/button/__edit/button__edit.css);
+@import url(../blocks/button/__add/button__add.css);
 
 /* Блок cards */
 @import url(../blocks/cards/cards.css);
@@ -30,21 +32,21 @@
 @import url(../blocks/card/__img/card__img.css);
 @import url(../blocks/card/__content/card__content.css);
 @import url(../blocks/card/__text/card__text.css);
-@import url(../blocks/card/__follow/card__follow.css);
-/* @import url(../blocks/checkbox/__invisible/checkbox__invisible.css); */
-/* @import url(../blocks/checkbox/__visible/checkbox__visible.css); */
+@import url(../blocks/button/__follow/button__follow.css);
 
 /* Блок footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 /* Блок modal */
-@import url(../blocks/modal/modal.css);
-@import url(../blocks/modal/__window/modal__window.css);
-@import url(../blocks/modal/__close/modal__close.css);
-@import url(../blocks/modal/__form/modal__form.css);
-@import url(../blocks/modal/__title/modal__title.css);
-@import url(../blocks/modal/__change/modal__change_name.css);
-@import url(../blocks/modal/__change/modal__change_description.css);
-@import url(../blocks/modal/__submit/modal__submit.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/button/__close/_form__profile/button__close_form__profile.css);
+@import url(../blocks/form/__profile/form-profile.css);
+@import url(../blocks/form/__profile/_title/form__profile_title.css);
+@import url(../blocks/form/__profile/_input/form__profile_input.css);
+@import url(../blocks/form/__profile/_input-field/form__profile_input-field_name.css);
+@import url(../blocks/form/__profile/_input-field/form__profile_input-field_description.css);
+@import url(../blocks/button/__submit/_form__profile/button__submit_form__profile.css);
 
