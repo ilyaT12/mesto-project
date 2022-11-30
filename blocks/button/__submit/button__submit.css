@@ -1,4 +1,4 @@
-.button__submit_form__profile {
+.button__submit {
   background-color: #000;
   color: #fff;
   font-size: 18px;
@@ -6,16 +6,16 @@
   text-align: center;
   height: 50px;
   padding: 0;
+  margin-top: 18px;
   border-radius: 2px;
-  /* cursor: pointer; */
 }
 
-.button__submit_form__profile:hover {
+.button__submit:hover {
   opacity: 0.8;
 }
 
 @media all and (max-width: 600px) {
-  .button__submit_form__profile {
+  .button__submit {
     font-size: 14px;
     line-height: 17px;
   }
