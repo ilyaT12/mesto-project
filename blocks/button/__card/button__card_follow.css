@@ -1,19 +1,18 @@
-.button__follow {
+.button__card_follow {
   width: 22px;
   height: 19px;
   background-image: url(../../../images/logo/heart.svg);
   background-size: cover;
   border: none;
   background-color: #fff;
-  /* cursor: pointer; */
   transition: background-image 9999999s;
 }
 
-.button__follow:hover {
+.button__card_follow:hover {
   opacity: 0.5;
 }
 
-.button__follow:active {
+.button__card_follow:active {
   background-image: url(../../../images/logo/heart_active.svg);
   transition: background-image 0s;
 }
