@@ -34,19 +34,18 @@
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/button/__follow/button__follow.css);
 
-/* Блок footer */
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
-
 /* Блок modal */
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
-@import url(../blocks/button/__close/_form__profile/button__close_form__profile.css);
+@import url(../blocks/button/__close/_form/button__close_form__profile.css);
 @import url(../blocks/form/__profile/form-profile.css);
 @import url(../blocks/form/__profile/_title/form__profile_title.css);
 @import url(../blocks/form/__profile/_input/form__profile_input.css);
 @import url(../blocks/form/__profile/_input-field/form__profile_input-field_name.css);
 @import url(../blocks/form/__profile/_input-field/form__profile_input-field_description.css);
-@import url(../blocks/button/__submit/_form__profile/button__submit_form__profile.css);
+@import url(../blocks/button/__submit/_form/button__submit_form__profile.css);
 
+/* Блок footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
