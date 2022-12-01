@@ -12,16 +12,16 @@
   <header class="header">
       <img src="./images/logo/logo.svg" alt="Логотип проекта Место" class="header__img">
   </header>
-<!--Ольга, все поправил. Ключи кнопок обозначил по месту нахождения.-->
+
   <main class="content">
     <section class="profile">
       <img src="./images/Avatar.png" alt="Фото профиля" class="profile__avatar">
       <div class="profile__info">
         <h1 class="profile__name" id="profile__name">Жак-Ив Кусто</h1>
         <p class="profile__description" id="profile__description">Исследователь океана</p>
-        <button class="button button__profile_edit" type="button" name="edit_profile" aria-label="Редактирование профиля"></button>
+        <button class="button profile__button-edit" type="button" name="edit_profile" aria-label="Редактирование профиля"></button>
       </div>
-      <button class="button button__profile_add" type="button" name="add_profile" aria-label="Добавить профиль"></button>
+      <button class="button profile__button-add" type="button" name="add_profile" aria-label="Добавить профиль"></button>
     </section>
 
     <section class="cards">
@@ -31,7 +31,7 @@
             <img src="./images/card/01.kirill-pershin-1088404-unsplash.jpg" alt="Церковь на горе" class="card__img">
             <div class="card__content">
               <h2 class="card__text">Карачаевск</h2>
-              <button class="button button__card_follow" type="button" name="follow" aria-label="Нравиться"></button>
+              <button class="button card__button-follow" type="button" name="follow" aria-label="Нравиться"></button>
             </div>
           </article>
         </li>
@@ -40,7 +40,7 @@
             <img src="./images/card/02.kirill-pershin-1404681-unsplash.jpg" alt="Пики Эльбруса на закате" class="card__img">
             <div class="card__content">
               <h2 class="card__text">Гора Эльбрус</h2>
-              <button class="button button__card_follow" type="button" name="follow" aria-label="Нравиться"></button>
+              <button class="button card__button-follow" type="button" name="follow" aria-label="Нравиться"></button>
             </div>
           </article>
         </li>
@@ -49,7 +49,7 @@
             <img src="./images/card/03.kirill-pershin-1556355-unsplash.jpg" alt="Горы Домбая" class="card__img">
             <div class="card__content">
               <h2 class="card__text">Домбай</h2>
-              <button class="button button__card_follow" type="button" name="follow" aria-label="Нравиться"></button>
+              <button class="button card__button-follow" type="button" name="follow" aria-label="Нравиться"></button>
             </div>
           </article>
         </li>
@@ -58,7 +58,7 @@
             <img src="./images/card/02.kirill-pershin-1404681-unsplash.jpg" alt="Пики Эльбруса на закате" class="card__img">
             <div class="card__content">
               <h2 class="card__text">Гора Эльбрус</h2>
-              <button class="button button__card_follow" type="button" name="follow" aria-label="Нравиться"></button>
+              <button class="button card__button-follow" type="button" name="follow" aria-label="Нравиться"></button>
             </div>
           </article>
         </li>
@@ -67,7 +67,7 @@
             <img src="./images/card/03.kirill-pershin-1556355-unsplash.jpg" alt="Горы Домбая" class="card__img">
             <div class="card__content">
               <h2 class="card__text">Домбай</h2>
-              <button class="button button__card_follow" type="button" name="follow" aria-label="Нравиться"></button>
+              <button class="button card__button-follow" type="button" name="follow" aria-label="Нравиться"></button>
             </div>
           </article>
         </li>
@@ -76,7 +76,7 @@
             <img src="./images/card/01.kirill-pershin-1088404-unsplash.jpg" alt="Церковь на горе" class="card__img">
             <div class="card__content">
               <h2 class="card__text">Карачаево-Черкесия</h2>
-              <button class="button button__card_follow" type="button" name="follow" aria-label="Нравиться"></button>
+              <button class="button card__button-follow" type="button" name="follow" aria-label="Нравиться"></button>
             </div>
           </article>
         </li>
@@ -85,12 +85,12 @@
 
     <div class="popup " id="myModal"> <!--сюда добовляем модификатор popup_opened для открытия формы-->
       <div class="popup__container">
-        <button class="button button__popup_close" type="button" name="close_popup" form="myModal" aria-label="Закрыть форму"></button>
+        <button class="button popup__button-close" type="button" name="close_popup" form="myModal" aria-label="Закрыть форму"></button>
         <form class="form" name="change_profile">
           <h3 class="form__title">Редактировать профиль</h3>
           <input class="form__input" type="text" name="name" id="change_name">
           <input class="form__input" type="text" name="description" id="change_description">
-          <button class="button button__form_submit" type="submit" name="submit" form="myModal">Сохранить</button>
+          <button class="button form__button-submit" type="submit" name="submit" form="myModal">Сохранить</button>
         </form>
       </div>
     </div>
